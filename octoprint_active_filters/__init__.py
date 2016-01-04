@@ -12,7 +12,7 @@ class ActiveFiltersPlugin(octoprint.plugin.AssetPlugin):
 
 	def get_update_information(self):
 		return dict(
-			touchui=dict(
+			active_filters=dict(
 				displayName="Active Filters",
 				displayVersion=self._plugin_version,
 
